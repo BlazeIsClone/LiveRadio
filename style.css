@@ -1,0 +1,213 @@
+.heading {
+
+    font-family: sans-serif;
+    align-content: center;
+    text-align: center;
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    color: gold;
+    margin-bottom: 0;
+    width: 100vw;
+    height: auto;
+    position: relative;
+    margin: -10px;
+    text-shadow: 0px 0px 5px gold;
+}
+.heading:hover {
+    text-shadow: 0px 0px 15px gold;
+    cursor: pointer;
+}
+.head {
+    font-size: 1.2em;
+    text-decoration: none;
+    text-align: center;
+}
+
+.nav {
+    padding-left: 60px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+    display: inline-block;    
+    position: relative;
+    top: 30px;
+    color: white;
+    text-shadow: 5px 5px 15px black;
+}
+
+.nav:hover  {
+    color: gold;
+    text-shadow: 5px 5px 5px black;
+    
+}
+
+.main {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 16.6% 16.6% 16.6% 16.6% 16.6% 16.6%;
+    position: relative;
+    left: 3%;
+    width: 100vw;
+    margin-right: 0;
+    padding-right: 0;
+    justify-content: center;
+}
+
+.cell {
+    cursor: pointer;
+    margin-right: 100px;
+    padding-right: 0;
+}
+
+.headimg {
+    position: absolute;
+    height: 1000px;
+    padding: 0;
+    width: 100vw;
+    margin: -10px;
+}
+
+.pannel-left {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 500px;
+    top: 100px;
+    margin-bottom: 100px;
+    
+}
+.heading-info {
+    color: gold;
+    font-family: sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    padding: 20px 30px 0 30px;
+    text-shadow: 0px 0px 10px gold;
+
+}
+
+.pannel-right {
+    position: relative;
+
+}
+.radio-information {
+    grid-template-columns: 5fr 1fr;
+    display: grid;
+    width: 80%;
+    margin-left: 10%;
+}
+#poster-105 {
+    height: 500px;
+    top: 100px;
+    position: relative;
+
+}
+.typo-body {
+    color: white;
+    font-size: 1.2em;
+    padding-top: 40px;
+    padding: 20px 30px 0 30px;
+    font-family: sans-serif;
+}
+.player {
+    position: fixed;
+    width: 99%;
+    bottom: 0px;
+}
+
+.btn {
+    position: relative;
+}
+.btn-primary {
+    width: 200px;
+    padding: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    border-color: rgb(71, 71, 71);
+    border-radius: 5px;
+    outline: none;
+    float: left;
+    margin-left: 25px;
+    margin-top: 10px;
+    font-size: 1em;
+    background-color: rgb(71, 71, 71);
+}
+
+.btn-primary:focus {
+    color: gold;
+    text-shadow: 0px 0px 10px gold;
+}
+.staticAudio {
+width: auto;
+position: relative;
+    outline: none;
+    top: 80px;
+    float: left;
+}
+
+.slider {
+    width: 200px;
+    height: 50px;
+    margin-left: 25px;
+}
+@media (min-width: 500px) and (max-width: 700px) {
+    .main {
+        grid-template-columns: 1fr 1fr;
+        margin: 40px;
+        justify-content: space-around;
+        margin-top: 70px;
+    }
+
+    .player {
+        width: 98%;
+    }
+    
+    .heading-info {
+        text-align: center;
+        margin: 0;
+    }
+    .cell {
+        margin: 10px;
+    }
+    .radio-information {
+        margin: 0px; 
+        width: 75vh;
+        padding-right: 0;
+        height: 50px; 
+        position: relative;
+        bottom: 100px;
+        height: 150px;
+    }
+    .pannel-right {
+        display: none;
+    }
+    
+    .pannel-left {
+        height: 400px;
+    }
+
+    .typo-body {
+        margin-top: 0;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 1000px) {
+    .main {
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: space-around;
+    }
+    .cell {
+        margin: 10px;
+    }
+    .radio-information {
+        grid-template-columns: 5fr 1fr;
+        display: grid;
+        margin: 0 0 0 0; 
+        width: 100%;
+        position: relative;
+        bottom: 60px;
+    }
+
+
+}
