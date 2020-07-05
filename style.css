@@ -152,6 +152,15 @@ position: relative;
     margin-left: 25px;
 }
 @media (min-width: 500px) and (max-width: 700px) {
+    .pannel-right {
+        display: none;
+    }
+
+    .pannel-left {
+        width: 100vw;
+    }
+}
+@media (min-width: 500px) and (max-width: 1000px) {
     .main {
         grid-template-columns: 1fr 1fr;
         margin: 40px;
@@ -172,15 +181,12 @@ position: relative;
     }
     .radio-information {
         margin: 0px; 
-        width: 75vh;
+        width: 100vw;
         padding-right: 0;
         height: 50px; 
         position: relative;
         bottom: 100px;
         height: 150px;
-    }
-    .pannel-right {
-        display: none;
     }
     
     .pannel-left {
@@ -190,9 +196,13 @@ position: relative;
     .typo-body {
         margin-top: 0;
     }
+
+    .btn-primary {
+        width: 150px;
+    }
 }
 
-@media (min-width: 700px) and (max-width: 1000px) {
+@media (min-width: 1000px) and (max-width: 1000px) {
     .main {
         grid-template-columns: 1fr 1fr 1fr;
         justify-content: space-around;
@@ -208,6 +218,8 @@ position: relative;
         position: relative;
         bottom: 60px;
     }
-
+    .btn-primary {
+        width: 50px;
+    }
 
 }
